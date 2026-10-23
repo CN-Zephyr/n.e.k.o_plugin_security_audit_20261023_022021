@@ -1,0 +1,15 @@
+[plugin]
+name = "SECURITY AUDIT ONLY - DO NOT INSTALL"
+id = "security_audit_20261023_022021"
+version = "0.0.1"
+type = "plugin"
+description = "Disposable authorization test fixture. No production use. Do not approve manually or install."
+short_description = "SECURITY AUDIT ONLY - disposable authorization fixture"
+entry = "fixture:SecurityAuditFixture"
+
+[plugin.author]
+name = "CN-Zephyr security audit"
+
+[plugin_runtime]
+enabled = false
+auto_start = false
